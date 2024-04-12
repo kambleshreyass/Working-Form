@@ -1,0 +1,53 @@
+/* Basic styling for the form */
+body{
+  color: white;
+}
+body{
+  font-family: 'Outfit';
+  /* background-color: red; */
+  background-image: url(https://plus.unsplash.com/premium_photo-1674476933026-aa7f5652af8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJsdXIlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D);
+  object-fit: cover;
+  background-position: center;
+}
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 100px;
+  position: relative;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.form-textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.form-button:hover {
+  background-color: #0056b3;
+}
